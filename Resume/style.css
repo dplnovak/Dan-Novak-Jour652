@@ -1,7 +1,7 @@
 /*Styles for My Resume*/
 
 
-.description {
+body {
   font-family: 'Open Sans', arial, sans-serif;
   font-size: 12px;
   color: #444;
@@ -10,25 +10,46 @@
   margin-bottom: 10px;
   margin-left: 0px;
 }
+
+#container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
 /*My name*/
 #name {
   font-size: 3em;
     color: #33485e;
   text-transform: uppercase;
   text-align: center;
-  border-bottom: 1px solid #33485e
+  border-bottom: 1px solid #33485e;
   width: 60%;
   min-width: 300px;
   margin: 0 auto;
   }
 
-/* style for my name*/
-  strong {
+/* title*/
+  #title {
       color: #33485e;
       text-transform: uppercase;
       text-align: center;
       font-size: 1.5em;
+      font-weight: 600px;
+      margin-top: 20px;
+      margin-right: 0px;
+      margin-bottom: 0px;
+      margin-left: 0px;
   }
+
+  /*contact information*/
+.menu {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
 /* section title*/
 .sectionheader {
   font-size: 1.5em;
@@ -39,21 +60,24 @@
   margin-top: 20px;
   margin-right: 0px;
   margin-bottom: 10px;
-  margin-left: 0px;}
+  margin-left: 0px;
+  width: 70%;
+  min-width: 300px;
+  padding-left: 20px;}
 
 /* job titles*/
-h3 {
+ .jobtitle {
   font-weight: 600;
     font-size: 1.5em; }
 
 
 /* organization name*/
-.organization {
+#organization {
   font-weight: 400;
   font-size: 1.25em;}
 
 /*Dates*/
-.date {
+#date {
   font-weight: 400;
     font-style: italic;
     font-size: 1em;
@@ -62,6 +86,25 @@ h3 {
     margin-bottom: 0px;
     margin-left: 0px;}
 
+.description {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+/*Education*/
+#degrees {
+  font-size: 1em;
+  margin-top: 5px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;}
 
 /*Skills*/
-li { font-size: 1em;}
+#do { font-size: 1em;
+  margin-top: 5px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;}
