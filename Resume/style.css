@@ -1,110 +1,86 @@
-/*Styles for My Resume*/
-
 
 body {
   font-family: 'Open Sans', arial, sans-serif;
   font-size: 12px;
-  color: #444;
-  margin-top: 10px;
-  margin-right: 0px;
-  margin-bottom: 10px;
-  margin-left: 0px;
+  background-color: #133340;
+  color: #A8BB6B;
+  border: 20px solid #0E252E;
+
 }
 
-#container {
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding-bottom: 50px;
+img {
+        max-width: 100%;
+            height: auto;
+            }
+            .bg-light {
+                        background-color:#E5FF92 !important;
+                          color: #A8BB6B !important;
+                        font-size: 1.5em;
+                        text-emphasis-color: #A8BB6B
+
+                        }
+
+
+
+            .navbar-expand-lg{
+              color: #737F49!important;
+              position: fixed;
+               z-index: 10;
+              width: 100%;
+              position: -webkit-sticky;
+              position: sticky;
+              top: 0px;
+            }
+
+header {
+background-color: #133340;
+text-align: center;
+
 }
-/*My name*/
-#name {
+
+
+
+.jumbotron {
+padding: 15px;
+    background:#0E252E;
+    color: #A8BB6B;
+    font-family: Helvetica, sans-serif;
+}
+
+/*contact information*/
+.menu li {
+  margin: 0;
+  padding: 0;
   font-size: 3em;
-    color: #33485e;
-  text-transform: uppercase;
+  display: inline;
+
+
+}
+
+.menu li a {
+color:#A8BB6B;
+text-align: center !important;
+}
+
+  .sectionheader {
+    font-size: 1.5em;
+    background:#A8BB6B;
+    color: #133340;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    width: 100%;
+   min-width: 300px;
+    padding-left: 15px;
+
+            }
+
+footer{
   text-align: center;
-  border-bottom: 1px solid #33485e;
-  width: 60%;
-  min-width: 300px;
-  margin: 0 auto;
-  }
+  padding: 10px;
+  margin-top: 40px;
 
-/* title*/
-  #title {
-      color: #33485e;
-      text-transform: uppercase;
-      text-align: center;
-      font-size: 1.5em;
-      font-weight: 600px;
-      margin-top: 20px;
-      margin-right: 0px;
-      margin-bottom: 0px;
-      margin-left: 0px;
-  }
-
-  /*contact information*/
-.menu {
-    margin: 0;
-    padding: 0;
-    text-align: center;
 }
-
-
-/* section title*/
-.sectionheader {
-  font-size: 1.5em;
-  background: #33485e;
-  color: #fff;
-  text-transform: uppercase;
-  font-weight: 400;
-  margin-top: 20px;
-  margin-right: 0px;
-  margin-bottom: 10px;
-  margin-left: 0px;
-  width: 70%;
-  min-width: 300px;
-  padding-left: 20px;}
-
-/* job titles*/
- .jobtitle {
-  font-weight: 600;
-    font-size: 1.5em; }
-
-
-/* organization name*/
-#organization {
-  font-weight: 400;
-  font-size: 1.25em;}
-
-/*Dates*/
-#date {
-  font-weight: 400;
-    font-style: italic;
-    font-size: 1em;
-    margin-top: 2px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;}
-
-.description {
-  display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-}
-
-/*Education*/
-#degrees {
-  font-size: 1em;
-  margin-top: 5px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;}
-
-/*Skills*/
-#do { font-size: 1em;
-  margin-top: 5px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;}
