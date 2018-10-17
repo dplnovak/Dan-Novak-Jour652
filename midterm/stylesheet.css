@@ -1,0 +1,73 @@
+
+img{
+  max-width:100%;
+  height: auto;
+}
+
+#story{  margin:0 auto;
+  width: 900px;
+
+}
+
+#date{
+font-size:14px;
+font-family: Arial, sans-serif;
+}
+
+#byline{ font-family: Arial, sans-serif;
+  font-size: 14px;
+font-weight:bold;
+
+}
+figure{
+
+height: 500px;
+width: 500px;
+padding: 0;
+margin:0 auto;
+padding-bottom: 0px;
+padding-top: 0px
+margin-bottom: 0px;
+margin-top: 0px;
+position: relative;
+top: 50px;
+}
+
+h1{
+  font-family: Times;
+  font-size: 36px;
+}
+
+h3{font-family: Arial;
+  font-size: 20px;
+color: #E8460C;
+padding: 0px;
+margin-top: 0px;
+top:100px; 
+}
+
+.meet {
+font-size: 30px !important;
+  color: #E8460C;
+  top: 50px;
+}
+
+
+blockquote {
+font-size: 24px;
+color: #E8460C;
+font-weight: bold;
+font-family; Helvetica;
+text-align: center;
+}
+
+
+/*styles for body paragraphs*/
+p{
+font-family: Helvetica, Arial, sans-serif;
+font-size: 12px;
+position: relative;
+margin-top: 0px;
+margin-botom: 0px;
+padding: 0px;
+}
