@@ -3,7 +3,6 @@
         width:100%;
         margin: 0 auto;
         font-family: Helvetica;
-
 }
 
 h1{
@@ -19,10 +18,14 @@ figure {
   text-align: center;
   font-style: italic;
   color: grey;
-  font-size: 12px; 
+  font-size: 12px;
 
 }
+
 footer{
 font-family: Helvetica;
 text-align: center;
+background-color: gray;
+max-width:1000px;
+margin: 0 auto;
 }
