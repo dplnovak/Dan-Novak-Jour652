@@ -1,0 +1,169 @@
+#container{
+        max-width:800px;
+        width:100%;
+        margin: 0 auto;
+        font-family: "PT Serif",serif;
+
+
+}
+
+/* unvisited link */
+a:link {
+    color: #e0162b;
+    text-decoration: none;
+}
+/* visited link */
+a:visited {
+    color: #999;
+    text-decoration: none;
+}
+/* mouse over link */
+a:hover {
+    color: #0052a5;
+    text-decoration: none;
+}
+.bg-dark {
+ background:#425063 !important;
+
+}
+
+ul.navbar-nav {
+ margin-left:50%;
+}
+.star-top{
+        width:20px;
+        padding-right: 5px;
+
+}
+.navbar {
+ font-family: "Montserrat", sans-serif;
+
+}
+.hero-image{
+width:100%;
+max-width: 800px;
+text-align: center;
+margin: 0 auto;
+margin-top: 10px;
+
+}
+
+.chaptertitle{
+  font-family: "Helvetica", sans-serif;
+  color: #283538;
+  font-size: 1em;
+  font-weight: 1000;
+  padding-top: 20px;
+  width: 100%;
+
+
+}
+
+
+h1{
+    text-align: center;
+    color: #2A3440;
+    font-family: "Helvetica",sans-serif;
+    font-weight: 700;
+    font-size: 3em;
+    margin-top: 20 px;
+    margin-bottom: 30px;
+
+  }
+
+.byline {
+  text-align: center!important;
+  margin: 0 auto ;
+  font-family: "Arial",sans-serif;
+  font-weight: 600;
+  margin: 0 auto;
+  margin-bottom: 10px;
+
+}
+.red {
+ color: #e0162b;
+}
+
+.blue {
+ color: #0052a5;
+}
+.star2
+{
+text-align: center;
+margin-top: 25px;
+margin-bottom: 25px;
+
+}
+
+.introtext {
+  font-family: "Helvetica", sans-serif;
+  color: #7E7E7F;
+  text-align: center;
+  font-size: 1.25em;
+  font-style: italic;
+  max-width: 800px;
+  margin-top: 25px;
+  margin-bottom: 40px;
+  margin: 0 auto;
+
+}
+p{
+  font-family: "Arial", sans-serif;
+  text-align:left;
+  line-height:180%;
+  color: #425063;
+
+
+}
+/* photograph */
+.stack-image{
+width:100%;
+max-width:700px;
+padding-top:30px;
+margin:0 auto;
+
+}
+/* caption */
+.caption{
+ width:100%;
+ max-width:900px;
+ margin:0 auto;
+ padding-bottom:30px;
+ font-family: 'Montserrat', sans-serif;
+ color:#999;
+}
+/* Graph styles */
+.graphic-container {
+ padding-top:30px;
+ padding-bottom:30px;
+ border-top:1px solid #cdcdcd;
+ border-bottom:1px solid #cdcdcd;
+ font-family: 'Montserrat', sans-serif;
+ margin:0 auto;
+ width: 100%;
+}
+
+.map {
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+
+footer{
+font-family: "Helvetica";
+background-color: #425063;
+color: white;
+text-align: center;
+margin-top: 25px;
+margin-bottom: 25px;
+height: 100px;
+
+}
+
+
+@media screen and (max-width: 900px) {
+ /*Add CSS that only activates on screens less than 480x here*/
+
+}
