@@ -1,15 +1,19 @@
+
+
+
 #container{
         max-width:800px;
         width:100%;
         margin: 0 auto;
         font-family: "PT Serif",serif;
-
+        padding-left: 15px;
+        padding-right: 15px;
 
 }
 
 /* unvisited link */
 a:link {
-    color: #e0162b;
+    color: #CBA574;
     text-decoration: none;
 }
 /* visited link */
@@ -36,7 +40,7 @@ ul.navbar-nav {
 
 }
 .navbar {
- font-family: "Montserrat", sans-serif;
+ font-family: "Helvetica", sans-serif;
 
 }
 .hero-image{
@@ -51,10 +55,13 @@ margin-top: 10px;
 .chaptertitle{
   font-family: "Helvetica", sans-serif;
   color: #283538;
-  font-size: 1em;
+  font-size: 3em;
   font-weight: 1000;
   padding-top: 20px;
+  padding-bottom: 15PX;
   width: 100%;
+font-style: italic;
+  text-align: center;
 
 
 }
@@ -62,12 +69,35 @@ margin-top: 10px;
 
 h1{
     text-align: center;
-    color: #2A3440;
+    color: #7F6849;
     font-family: "Helvetica",sans-serif;
     font-weight: 700;
     font-size: 3em;
     margin-top: 20 px;
     margin-bottom: 30px;
+
+  }
+
+  h2{
+      text-align: center;
+      color: #7F6849;
+      font-family: "PT Serif",sans-serif;
+
+      font-size: 2em;
+      margin-top: 20 px;
+      margin-bottom: 30px;
+
+    }
+
+
+blockquote {
+color: #CBA574;
+font-size: 2.5em;
+margin: 0auto;
+text-align: center;
+border-style: solid;
+border: black;
+
 
   }
 
@@ -80,20 +110,7 @@ h1{
   margin-bottom: 10px;
 
 }
-.red {
- color: #e0162b;
-}
 
-.blue {
- color: #0052a5;
-}
-.star2
-{
-text-align: center;
-margin-top: 25px;
-margin-bottom: 25px;
-
-}
 
 .introtext {
   font-family: "Helvetica", sans-serif;
@@ -103,34 +120,97 @@ margin-bottom: 25px;
   font-style: italic;
   max-width: 800px;
   margin-top: 25px;
-  margin-bottom: 40px;
+
   margin: 0 auto;
+padding-top: 20px;
 
 }
+
+
+.first-word{
+font-family: "PT Serif";
+font-size: 3em;
+color: #7F6849;
+
+}
+.second-word {
+  font-family: "PT Serif";
+  font-size: 2em;
+  color: #7F6849;
+
+}
+
+
 p{
   font-family: "Arial", sans-serif;
   text-align:left;
   line-height:180%;
-  color: #425063;
+  color: #333E4C;
+  margin-left: 10px;
+  margin-right: 10px;
 
 
 }
+
+.w3-container{
+  padding-top: 10px;
+  font-family: "PT Serif", sans-serif;
+  color:#999;
+  font-size: 13px;
+  margin-left: 10px;
+  margin-right: 10px;
+  
+
+}
+
+
 /* photograph */
 .stack-image{
 width:100%;
+height: 100%;
 max-width:700px;
 padding-top:30px;
 margin:0 auto;
-
+border-top:1px solid #cdcdcd;
+border-bottom:1px solid #cdcdcd;
 }
+
+img{
+  margin: 0 auto;
+  text-align: center;
+}
+.house-image {
+  height: 396px;
+  width:100%;
+  height: 100%;
+  margin: 0 auto;
+padding-top: 30px;
+border-top:1px solid #cdcdcd;
+border-bottom:1px solid #cdcdcd;
+}
+
+
+.help-me{
+  margin: 0auto;
+  width:100%;
+  margin: 0 auto;
+padding-top: 30px;
+width: 349px;
+display:block;
+width: 40%;
+border-top:1px solid #cdcdcd;
+border-bottom:1px solid #cdcdcd;
+}
+
 /* caption */
 .caption{
  width:100%;
  max-width:900px;
  margin:0 auto;
  padding-bottom:30px;
- font-family: 'Montserrat', sans-serif;
+ font-family: "PT Serif", sans-serif;
  color:#999;
+ font-size: 13px;
 }
 /* Graph styles */
 .graphic-container {
@@ -138,16 +218,21 @@ margin:0 auto;
  padding-bottom:30px;
  border-top:1px solid #cdcdcd;
  border-bottom:1px solid #cdcdcd;
- font-family: 'Montserrat', sans-serif;
+ font-family: "PT Serif", sans-serif;
  margin:0 auto;
  width: 100%;
+ margin-bottom: 10px;
 }
 
 .map {
   text-align: center;
   margin: 0 auto;
   margin-top: 15px;
-  margin-bottom: 15px;
+  margin-bottom: 30px;
+  border-top:1px solid #cdcdcd;
+  border-bottom:1px solid #cdcdcd;
+  padding-top:20px;
+  padding-bottom:20px;
 }
 
 
@@ -159,11 +244,5 @@ text-align: center;
 margin-top: 25px;
 margin-bottom: 25px;
 height: 100px;
-
-}
-
-
-@media screen and (max-width: 900px) {
- /*Add CSS that only activates on screens less than 480x here*/
 
 }
